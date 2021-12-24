@@ -43,8 +43,8 @@ substrate-bn = { git = "https://github.com/paritytech/bn", default-features = fa
 rayon = "1.*"
 indicatif = {version = "*", features = ["with_rayon"]}
 parity-crypto = {version = "0.8.0", features = ["publickey"]}
-ethereum-types = "0.8"
-keccak-hash = "0.4"
+ethereum-types = "0.11"
+keccak-hash = "0.7"
 
 [features]
 default = ["eip_2537", "gas_metering", "mappings", "eip_2357_c_api", "eip_196", "eip_196_c_api", "eip_2539", "eip_2359_c_api"]
